@@ -4,6 +4,7 @@ public class DatatypeExample {
     public static void main(String[] args) {
         // All data types
         // Declararation: datatypename variablename = value;
+        String name = "Will";
         byte a = 2;
         short b = 20;
         int c = 23456;
@@ -15,6 +16,8 @@ public class DatatypeExample {
         char ans = '\u0000';
         boolean valid = true;
 
+        System.out.println("Hello, " + name);
+        
         System.out.println("Byte type: " + a);
         System.out.println("Short type: " + b);
         System.out.println("Integer type: " + c);
