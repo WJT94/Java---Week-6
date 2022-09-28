@@ -3,22 +3,45 @@ package customer;
 import product.Product;
 
 public class Customer {
-    String name;
-    String address;
-    String phone;
-    Product[] cart;
-
-    public static Customer createNew() {
-        Customer cus = new Customer();
-
-
-        return cus;
-    }
+    public String userName;
+    public String address;
+    public String email;
+    public String password;
+    public String phone;
     
-    public void initialize(String name, String address, String phone) {
-        this.name = name;
-        this.address = address;
-        this.phone = phone;
+    public void showProfile() {
+        System.out.println(String.format("Name: %s", this.userName));
+        System.out.println(String.format("Email: %s", this.email));
+        System.out.println(String.format("Address: %s", this.address));
+        System.out.println(String.format("Phone: %s", this.phone));
+    }
+
+    public void editProfile() {
+
+    }
+
+    public void changePassword() {
+
+    }
+
+    public void checkOrderStatus() {
+
+    }
+
+    public void returnAndRefund() {
+
+    }
+
+    public void placeOrder() {
+
+    }
+
+    public void cancelOrder() {
+
+    }
+
+    public void addToCard() {
+
     }
 
     public void show() {
